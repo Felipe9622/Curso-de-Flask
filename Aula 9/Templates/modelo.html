@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5 HORAS MAIS EU CONSEGUI</title>
+</head>
+<body>
+<hr>
+<table>
+    {% for k, v in query.items() %}
+    <tr>
+        <th>{{ k }}</th>
+        <td>{{ v }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
